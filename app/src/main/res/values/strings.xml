@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MotionLayoutLecture</string>
+
+    <string name="button_motion_first_text">Motion Scene Example 1</string>
+
+    <string name="button_motion_second_text">Motion Scene Example 2</string>
 </resources>
