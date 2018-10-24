@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".collapsingwithmotion.CollapsingWithMotionExampleActivity"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".viewpagerwithmotion.ViewPagerWithMotionExampleActivity">
+        </activity>
+        <activity
+            android:name=".collapsingwithmotion.CollapsingWithMotionExampleActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
         <activity android:name=".keyframes.KeyFramesExampleActivity"/>
         <activity android:name=".customattribute.CustomAttributeExampleSecondActivity"/>

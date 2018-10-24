@@ -12,7 +12,7 @@
         android:id="@+id/image_filter_view"
         android:layout_width="@dimen/size_big"
         android:layout_height="@dimen/size_big"
-        android:src="@drawable/ic_death_star"
-        app:altSrc="@drawable/ic_millennium_falcon" />
+        android:src="@drawable/ic_death_star_with_background"
+        app:altSrc="@drawable/ic_millennium_falcon_with_background" />
 
 </android.support.constraint.motion.MotionLayout>
