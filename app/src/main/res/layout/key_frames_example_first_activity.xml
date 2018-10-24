@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layoutDescription="@xml/motion_scene_example_first"
+    app:layoutDescription="@xml/key_frames_example_first"
     app:showPaths="true"
-    tools:context=".MotionSceneExampleFirstActivity">
+    tools:context=".KeyFramesExampleFirstActivity">
 
     <ImageView
         android:id="@+id/motion_view"
-        android:layout_width="@dimen/size_big_x"
-        android:layout_height="@dimen/size_big_x"
+        android:layout_width="@dimen/size_small"
+        android:layout_height="@dimen/size_small"
         android:contentDescription="@null"
         android:src="@drawable/ic_r2d2" />
 

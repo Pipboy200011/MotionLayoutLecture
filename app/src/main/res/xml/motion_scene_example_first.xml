@@ -3,7 +3,7 @@
     xmlns:motion="http://schemas.android.com/apk/res-auto">
 
     <Transition
-        motion:constraintSetEnd="@layout/motion_scene_example_second_end"
+        motion:constraintSetEnd="@layout/motion_scene_example_first_end"
         motion:constraintSetStart="@layout/motion_scene_example_first_start"
         motion:duration="1000">
 
