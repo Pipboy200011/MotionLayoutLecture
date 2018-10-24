@@ -17,5 +17,7 @@ public class CollapsingWithMotionExampleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.collapsing_with_motion_example_activity);
+
+        getWindow().setStatusBarColor(getColor(R.color.colorPrimaryDark));
     }
 }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layoutDescription="@xml/key_frames_example_first"
+    app:layoutDescription="@xml/key_frames_example"
     app:showPaths="true"
     tools:context=".keyframes.KeyFramesExampleActivity">
 
