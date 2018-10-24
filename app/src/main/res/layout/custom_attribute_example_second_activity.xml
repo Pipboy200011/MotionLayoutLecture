@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     app:layoutDescription="@xml/custom_attribute_example_second"
     app:showPaths="true"
-    tools:context=".CustomAttributeExampleSecondActivity">
+    tools:context=".customattribute.CustomAttributeExampleSecondActivity">
 
     <android.support.constraint.utils.ImageFilterView
         android:id="@+id/image_filter_view"

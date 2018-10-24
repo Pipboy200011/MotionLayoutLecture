@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     app:layoutDescription="@xml/key_frames_example_first"
     app:showPaths="true"
-    tools:context=".KeyFramesExampleFirstActivity">
+    tools:context=".keyframes.KeyFramesExampleActivity">
 
     <ImageView
         android:id="@+id/motion_view"

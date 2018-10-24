@@ -1,9 +1,11 @@
-package com.mw2c.pipboy200011.motionlayoutlecture;
+package com.mw2c.pipboy200011.motionlayoutlecture.motionscene;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.mw2c.pipboy200011.motionlayoutlecture.R;
 
 public class MotionSceneExampleSecondActivity extends AppCompatActivity {
 

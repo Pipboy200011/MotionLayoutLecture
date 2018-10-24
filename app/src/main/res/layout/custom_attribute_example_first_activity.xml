@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     app:layoutDescription="@xml/custom_attribute_example_first"
     app:showPaths="true"
-    tools:context=".CustomAttributeExampleFirstActivity">
+    tools:context=".customattribute.CustomAttributeExampleFirstActivity">
 
     <View
         android:id="@+id/motion_view"

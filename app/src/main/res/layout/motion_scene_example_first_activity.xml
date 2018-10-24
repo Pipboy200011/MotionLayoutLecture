@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     app:layoutDescription="@xml/motion_scene_example_first"
     app:showPaths="true"
-    tools:context=".MotionSceneExampleFirstActivity">
+    tools:context=".motionscene.MotionSceneExampleFirstActivity">
 
     <ImageView
         android:id="@+id/motion_view"

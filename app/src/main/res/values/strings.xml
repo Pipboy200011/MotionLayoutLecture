@@ -9,6 +9,8 @@
 
     <string name="button_custom_attribute_second_text">Custom Attribute Example 2</string>
 
-    <string name="button_key_frames_first_text">KeyFrames Example 1</string>
+    <string name="button_key_frames_text">KeyFrames Example</string>
+
+    <string name="button_collapsing_with_motion_text">Collapsing with Motion Example</string>
 
 </resources>
