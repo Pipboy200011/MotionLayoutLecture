@@ -28,4 +28,14 @@
         android:transformPivotX="0dp"
         android:transformPivotY="0dp" />
 
+    <TextView
+        android:id="@+id/sub_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Star Destroyer"
+        android:textColor="#FFF"
+        android:textSize="16dp"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp" />
+
 </com.mw2c.pipboy200011.motionlayoutlecture.collapsingwithmotion.CollapsibleToolbar>
