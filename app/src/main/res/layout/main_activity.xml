@@ -77,4 +77,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_collapsing_with_motion"/>
 
+    <Button
+        android:id="@+id/button_other_motion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_medium"
+        android:text="@string/button_other_motion_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_view_pager_with_motion"/>
+
 </android.support.constraint.ConstraintLayout>

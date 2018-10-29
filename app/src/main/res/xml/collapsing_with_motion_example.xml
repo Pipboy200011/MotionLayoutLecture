@@ -5,7 +5,8 @@
 
     <Transition
         motion:constraintSetEnd="@+id/end"
-        motion:constraintSetStart="@+id/start"/>
+        motion:constraintSetStart="@+id/start"
+        motion:interpolator="linear"/>
 
     <ConstraintSet android:id="@+id/start">
         <Constraint
@@ -20,13 +21,33 @@
             android:layout_height="wrap_content"
             android:rotation="-90.0"
             motion:layout_constraintBottom_toBottomOf="@+id/background"
-            motion:layout_constraintStart_toStartOf="parent"/>
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white"/>
+        </Constraint>
         <Constraint
             android:id="@+id/sub_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             motion:layout_constraintBottom_toBottomOf="@+id/background"
             motion:layout_constraintEnd_toEndOf="parent"/>
+        <Constraint
+            android:id="@+id/sub_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/background"
+            motion:layout_constraintEnd_toEndOf="parent"/>
+        <Constraint
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            motion:layout_constraintBottom_toBottomOf="@id/background"
+            motion:layout_constraintEnd_toEndOf="@id/background"
+            motion:layout_constraintStart_toStartOf="@id/background"
+            motion:layout_constraintTop_toTopOf="@id/background"/>
+
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
@@ -34,7 +55,7 @@
             android:id="@+id/background"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:alpha="0.2"
+            android:alpha="0"
             motion:layout_constraintBottom_toBottomOf="parent"/>
         <Constraint
             android:id="@+id/label"
@@ -44,13 +65,25 @@
             android:layout_marginStart="8dp"
             android:rotation="0.0"
             motion:layout_constraintBottom_toBottomOf="@+id/background"
-            motion:layout_constraintStart_toStartOf="parent"/>
+            motion:layout_constraintStart_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@color/colorStarWars"/>
+        </Constraint>
         <Constraint
             android:id="@+id/sub_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             motion:layout_constraintBottom_toBottomOf="@+id/background"
             motion:layout_constraintStart_toEndOf="parent"/>
+        <Constraint
+            android:id="@+id/icon"
+            android:layout_width="@dimen/size_big"
+            android:layout_height="@dimen/size_big"
+            android:layout_marginRight="@dimen/size_medium"
+            android:alpha="1"
+            motion:layout_constraintBottom_toBottomOf="@id/background"
+            motion:layout_constraintEnd_toEndOf="parent"/>
     </ConstraintSet>
 
 </MotionScene>

@@ -12,6 +12,7 @@ import com.mw2c.pipboy200011.motionlayoutlecture.customattribute.CustomAttribute
 import com.mw2c.pipboy200011.motionlayoutlecture.keyframes.KeyFramesExampleActivity;
 import com.mw2c.pipboy200011.motionlayoutlecture.motionscene.MotionSceneExampleFirstActivity;
 import com.mw2c.pipboy200011.motionlayoutlecture.motionscene.MotionSceneExampleSecondActivity;
+import com.mw2c.pipboy200011.motionlayoutlecture.other.OtherMotionExampleActivity;
 import com.mw2c.pipboy200011.motionlayoutlecture.viewpagerwithmotion.ViewPagerWithMotionExampleActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         Button buttonKeyFrames = findViewById(R.id.button_key_frames);
         Button buttonCollapsingWithMotion = findViewById(R.id.button_collapsing_with_motion);
         Button buttonViewPagerWithMotion = findViewById(R.id.button_view_pager_with_motion);
+        Button buttonOtherWithMotion = findViewById(R.id.button_other_motion);
 
         final MainActivity activity = MainActivity.this;
         buttonMotionsSceneFirst.setOnClickListener(new View.OnClickListener() {
@@ -74,6 +76,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(ViewPagerWithMotionExampleActivity.newIntent(activity));
+            }
+        });
+        buttonOtherWithMotion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(OtherMotionExampleActivity.newIntent(activity));
             }
         });
     }

@@ -17,4 +17,6 @@
 
     <string name="button_view_pager_with_motion_text">ViewPager with Motion Example</string>
 
+    <string name="button_other_motion_text">Other Motion Example</string>
+
 </resources>
