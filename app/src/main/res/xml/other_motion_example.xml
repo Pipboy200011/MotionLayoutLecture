@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MotionScene
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:motion="http://schemas.android.com/apk/res-auto">
 
     <Transition
@@ -15,7 +14,7 @@
                 motion:target="@id/motion_item_two">
                 <CustomAttribute
                     motion:attributeName="alpha"
-                    motion:customFloatValue="0.2"/>
+                    motion:customFloatValue="0.2" />
             </KeyAttribute>
 
         </KeyFrameSet>
@@ -31,18 +30,18 @@
             motion:layout_constraintBottom_toBottomOf="parent"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toTopOf="parent"
-            />
+            motion:layout_constraintTop_toTopOf="parent" />
 
         <Constraint
             android:id="@+id/motion_item_one"
             android:layout_width="@dimen/size_big_s"
             android:layout_height="@dimen/size_big_s"
             android:alpha="0"
+            android:rotation="-45"
             motion:layout_constraintBottom_toBottomOf="@id/motion_plus_view"
             motion:layout_constraintEnd_toEndOf="@id/motion_plus_view"
             motion:layout_constraintStart_toStartOf="@id/motion_plus_view"
-            motion:layout_constraintTop_toTopOf="@id/motion_plus_view"/>
+            motion:layout_constraintTop_toTopOf="@id/motion_plus_view" />
 
         <Constraint
             android:id="@+id/motion_item_two"
@@ -53,17 +52,18 @@
             motion:layout_constraintBottom_toBottomOf="@id/motion_plus_view"
             motion:layout_constraintEnd_toEndOf="@id/motion_plus_view"
             motion:layout_constraintStart_toStartOf="@id/motion_plus_view"
-            motion:layout_constraintTop_toTopOf="@id/motion_plus_view"/>
+            motion:layout_constraintTop_toTopOf="@id/motion_plus_view" />
 
         <Constraint
             android:id="@+id/motion_item_three"
             android:layout_width="@dimen/size_big_s"
             android:layout_height="@dimen/size_big_s"
             android:alpha="0"
+            android:rotation="45"
             motion:layout_constraintBottom_toBottomOf="@id/motion_plus_view"
             motion:layout_constraintEnd_toEndOf="@id/motion_plus_view"
             motion:layout_constraintStart_toStartOf="@id/motion_plus_view"
-            motion:layout_constraintTop_toTopOf="@id/motion_plus_view"/>
+            motion:layout_constraintTop_toTopOf="@id/motion_plus_view" />
 
         <Constraint
             android:id="@+id/top_view"
@@ -73,7 +73,7 @@
             android:background="@color/colorPrimary"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toTopOf="parent"/>
+            motion:layout_constraintTop_toTopOf="parent" />
 
         <Constraint
             android:id="@+id/check_logo"
@@ -84,7 +84,7 @@
             motion:layout_constraintBottom_toBottomOf="@id/top_view"
             motion:layout_constraintEnd_toEndOf="@id/top_view"
             motion:layout_constraintStart_toStartOf="@id/top_view"
-            motion:layout_constraintTop_toTopOf="@id/top_view"/>
+            motion:layout_constraintTop_toTopOf="@id/top_view" />
 
 
     </ConstraintSet>
@@ -99,7 +99,7 @@
             motion:layout_constraintBottom_toBottomOf="parent"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toTopOf="parent"/>
+            motion:layout_constraintTop_toTopOf="parent" />
 
         <Constraint
             android:id="@+id/motion_item_one"
@@ -108,7 +108,7 @@
             android:alpha="1"
             motion:layout_constraintCircle="@id/motion_plus_view"
             motion:layout_constraintCircleAngle="-135"
-            motion:layout_constraintCircleRadius="80dp"/>
+            motion:layout_constraintCircleRadius="80dp" />
 
         <Constraint
             android:id="@+id/motion_item_two"
@@ -118,7 +118,7 @@
             android:src="@drawable/ic_check_circle"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toTopOf="parent"/>
+            motion:layout_constraintTop_toTopOf="parent" />
 
         <Constraint
             android:id="@+id/motion_item_three"
@@ -127,7 +127,7 @@
             android:alpha="1"
             motion:layout_constraintCircle="@id/motion_plus_view"
             motion:layout_constraintCircleAngle="135"
-            motion:layout_constraintCircleRadius="80dp"/>
+            motion:layout_constraintCircleRadius="80dp" />
 
 
         <Constraint
@@ -138,7 +138,7 @@
             android:background="@color/colorPrimary"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toTopOf="parent"/>
+            motion:layout_constraintTop_toTopOf="parent" />
 
         <Constraint
             android:id="@+id/check_logo"
@@ -149,7 +149,7 @@
             motion:layout_constraintBottom_toBottomOf="@id/top_view"
             motion:layout_constraintEnd_toEndOf="@id/top_view"
             motion:layout_constraintStart_toStartOf="@id/top_view"
-            motion:layout_constraintTop_toTopOf="@id/top_view"/>
+            motion:layout_constraintTop_toTopOf="@id/top_view" />
 
 
     </ConstraintSet>
